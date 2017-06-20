@@ -1,0 +1,105 @@
+.tbody {
+	color: white;
+	font-family: sans-serif;
+	font-weight: lighter;
+}
+.tbody video {
+	min-width: 100%;
+	min-height: 100%;
+	margin: auto;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	z-index: -1;
+}
+.tbody a {
+	color: white;
+	text-decoration: none;
+}
+
+/*Header*/
+
+.tbody .logo {
+	width: 200px;
+	height: auto;
+}
+.tbody header ul {
+	/*display: flex;
+	flex-wrap: wrap;*/
+	text-decoration: none;
+}
+.tbody header ul li {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 10px;
+	font-size: 14px;
+}
+.tbody .left {
+	float: left;
+}
+.tbody .right {
+	float: right;
+	margin-top: 40px;
+	margin-right: 40px;
+}
+
+/*Header end*/
+/*Content*/
+
+.tbody content #box {
+	padding-top: 150px;
+}
+.tbody h1 {
+	font-size: 40px;
+	clear: both;
+	font-weight: lighter;
+	text-align: center;
+}
+.tbody content ul {
+	text-align: center;
+}
+.tbody content ul li {
+	display: inline-block;
+	vertical-align: middle;
+	text-decoration: none;
+	margin: 0 10px;
+	padding: 10px 30px;
+	background-color: rgba(0,0,0,0.7);
+	font-weight: lighter;
+}
+.tbody content ul li:hover {
+	border: 1px solid white;
+	transition-delay: .25s;
+}
+.tbody p {
+	text-align: center;
+}
+.tbody p a:hover {
+	color: red;
+	transition-delay: .3s;
+}
+
+/*Content end*/
+/*Footer*/
+
+.tbody footer ul {
+	text-align: center;
+	position: absolute;
+	bottom: 0;
+	left: 24%;
+}
+.tbody footer ul li {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 10px;
+	font-size: 13px;
+}
+.tbody footer p {
+	margin-bottom: 20px;
+}
+.tbody .flag {
+	width: 15px;
+	height: auto;
+}
+
+/*Footer end*/
