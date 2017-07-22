@@ -14,7 +14,7 @@
 
 	<article>
 
-		<%= image_tag("google_img/googlelogo.png", :alt => "Google Logo", :class=> "logo") %>
+		<%= link_to image_tag("google_img/googlelogo.png", :alt => "Google Logo", :class=> "logo"), 'https://www.google.com/', :target => "_blank" %>
 
 		<input type="text" name="googlesearch">
 		<a href="#"><%= image_tag("google_img/mic.png", :alt => "Mic icon", :id=> "mic") %></a>
