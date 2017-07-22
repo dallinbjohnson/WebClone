@@ -4,8 +4,13 @@
 
 @font-face {
 	font-family:'beyond_the_mountains';
-	src:font-url('Beyond_The_Mountains/beyond_the_mountains.eot'); 
+	src:font-url('Beyond_The_Mountains/beyond_the_mountains.ttf');
+	src:font-url('Beyond_The_Mountains/beyond_the_mountains.eot');
 	src: local('Road_Rage'), url('Beyond_The_Mountains/beyond_the_mountains.ttf') format('truetype');
+}
+@font-face {
+	font-family:'beyond_the_mountains';
+	src:font-url('Beyond_The_Mountains/beyond_the_mountains.ttf');
 }
 
 .hbody {
