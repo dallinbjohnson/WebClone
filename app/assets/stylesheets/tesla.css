@@ -66,6 +66,7 @@
 	padding: 10px 30px;
 	background-color: rgba(0,0,0,0.7);
 	font-weight: lighter;
+	border: 1px solid rgba(0,0,0,0.7);
 }
 .tbody content ul li:hover {
 	border: 1px solid white;
